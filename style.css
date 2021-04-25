@@ -1,0 +1,50 @@
+.body{
+    text-align: center;
+    background-color: #17547c;
+}
+.cerita{
+    font-family: Denk One;
+    font-size: 16pt;
+    color: white;
+    text-align: center;
+    margin-top: 90%;
+    
+}
+#clock{
+    font-family: Coda Caption;
+    font-size: 35pt;
+    text-align: center;
+    font-style:initial;
+    color: white;
+    margin-top: 5%;
+}
+.medsos ul li {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+    margin-top: 100%;
+}
+
+@media (min-width: 992px) { 
+    #clock{
+        font-family: Denk One;
+        font-size: 40pt;
+        text-align: center;
+        margin-top: 2%;
+    }
+    .cerita{
+        display: block;
+        font-family: Denk One; 
+        margin-top: 40%;
+    }
+    .medsos ul li {
+        display: inline-block;
+        margin: 10px;
+        text-align: center;
+        color: white;
+        font-size: 10;
+        margin-top: 20%;
+    }
+ }
